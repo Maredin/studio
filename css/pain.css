@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Russo+One&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Russo One', sans-serif;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+header {
+    height: auto;
+    width: 100%;
+    background: #2C292A;
+}
+.header {
+    margin: 0 auto;
+    max-width: 1180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0;
+}
+.logo {
+    font-size: 36px;
+}
+.logoPink {
+    color: #CC81BA;
+}
+.nav_Menu ul {
+    width: 454px;
+    justify-content: space-between;
+    display: flex;
+}
+.nav_Menu li {
+    display: inline-flex;
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+.btnNav {
+    background: #FFFFFF;
+    border: 2px solid #CC81BA;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    color: #0B1119;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    padding: 12px 31px;
+    cursor: pointer;
+}
+
+
+
+
+.row1 {
+    background-image: url(../img/image\ 3.png);
+    width: 100%;
+    height: auto;
+    background-size: cover;
+}
+.row1_tex {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 240px 0 187px 0;
+}
+.row1_tex h1 {
+    font-size: 96px;
+}
+.row1_tex p {
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    max-width: 528px;
+    margin-top: 60px;
+}
+.btnMain {
+    background: #CC81BA;
+    border: 4px solid #FFFFFF;
+    border-radius: 8px;
+    padding: 28px 98px;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 80px;
+    cursor: pointer;
+}
+
+
+.row2 {
+    width: 100%;
+    height: auto;
+    background: #2C292A;
+}
+.row2_block {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 150px 0 128px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.row2_text {
+    max-width: 526px;
+}
+.row2_block h1 {
+    font-size: 48px;
+}
+.row2_block p {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 60px;
+}
+
+
+
+
+
