@@ -115,7 +115,104 @@ header {
     margin-top: 60px;
 }
 
+.row3 {
+    background: #CC81BA;
+}
+.row3_text {
+    margin: 0 auto;
+    padding: 150px 0 135px 0;
+    max-width: 1180px;
+    
+}
+.row3_text h1, .row3_left, .row3_rigt {
+    color: #0B1119;
+}
+.row3_text h1 {
+    font-size: 48px;
+    padding-bottom: 60px;
+}
+.row3_left, .row3_rigt {
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 20px;
+}
+.row3_left {
+    padding-left: 100px;
+}
+.row3_rigt {
+    padding-right: 100px;
+}
+.row3_row {
+    border-bottom: 1px solid #2C292A;
+    display: flex;
+    justify-content: space-between;
+}
 
-
-
-
+.row4 {
+    width: 1140px;
+    height: 440px;
+    background-image: url(../img/image\ 5.png);
+    margin: 0 auto;
+    z-index: 1;
+}
+.row4_fon {
+    background: rgba(44, 41, 42, 0.6);
+    height: 440px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    z-index: 2;
+}
+.row4_midle {
+    margin: 0 auto;
+    max-width: 1180px;
+    padding: 90px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.row4_text {
+    text-align:center;
+    z-index: 3;
+    width: 457px;
+    background: rgba(204, 129, 186, 0.5);
+    border-radius: 8px;
+    padding: 40px 20px;
+}
+.row4_text h2 {
+    font-size: 36px
+}
+.row4_text p {
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px 0;
+}
+.row4_info input {
+    letter-spacing: 0.44px;
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    padding: 17px;
+    border-radius: 8px;
+    background: #FFFFFF;
+    border: 1px solid #2C292A;
+    display: block;
+    width: 262px;
+}
+.row4_info input:nth-child(2) {
+    margin: 20px 0;
+}
+.row4_info button {
+    text-transform: uppercase;
+    color: #0B1119;
+    letter-spacing: 0.75px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 8px;
+    border: 1px solid #2C292A;
+    background: #CC81BA;
+    padding: 17px;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+}
