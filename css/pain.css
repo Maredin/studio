@@ -166,7 +166,7 @@ header {
 .row4_midle {
     margin: 0 auto;
     max-width: 1180px;
-    padding: 90px 0;
+    padding: 103px 0;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -214,5 +214,54 @@ header {
     padding: 17px;
     width: 100%;
     text-align: left;
+    cursor: pointer;
+}
+
+.row5 {
+    background: #CC81BA;
+}
+.row5_text {
+    margin: 0 auto;
+    width: 1180px;
+}
+.row5_text h2 {
+    color: #0B1119;
+    font-size: 48px;
+    padding-top: 150px;
+}
+.row5_slider {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    align-items: flex-end;
+    padding-bottom: 114px;
+    overflow-x: hidden;
+}
+.img_sliders {
+    width: 262px;
+    height: 262px;
+    margin: 0 5px;
+}
+.img_aktive{
+    width: 310px;
+    height: 310px;
+}
+.strelki {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+}
+.strelka2 {
+    position: relative;
+    top: 200px;
+    transform: rotate(180deg);
+    right: 100px;
+    cursor: pointer;
+}
+.strelka1 {
+    position: relative;
+    top: 200px;
+    left: 100px;
     cursor: pointer;
 }
