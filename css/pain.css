@@ -232,15 +232,19 @@ header {
 .row5_slider {
     display: flex;
     justify-content: center;
+    margin: 0 auto;
     margin-top: 60px;
     align-items: flex-end;
     padding-bottom: 114px;
     overflow-x: hidden;
+    max-width: 1440px;
+
 }
 .img_sliders {
     width: 262px;
     height: 262px;
     margin: 0 5px;
+    position: relative;
 }
 .img_aktive{
     width: 310px;
@@ -251,6 +255,7 @@ header {
     justify-content: space-between;
     width: 100%;
     position: absolute;
+    z-index: 10;
 }
 .strelka2 {
     position: relative;
