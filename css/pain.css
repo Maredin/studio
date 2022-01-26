@@ -233,7 +233,6 @@ header {
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    margin-top: 60px;
     align-items: flex-end;
     padding-bottom: 114px;
     overflow-x: hidden;
@@ -253,20 +252,69 @@ header {
 .strelki {
     display: flex;
     justify-content: space-between;
+    max-width: 1440px;
+    margin: 0 auto;
     width: 100%;
-    position: absolute;
+    position: relative;
+    top: 230px;
     z-index: 10;
 }
 .strelka2 {
     position: relative;
-    top: 200px;
     transform: rotate(180deg);
     right: 100px;
     cursor: pointer;
 }
 .strelka1 {
     position: relative;
-    top: 200px;
     left: 100px;
     cursor: pointer;
+}
+
+footer {
+    height: auto;
+    width: 100%;
+    background: #2C292A;
+}
+.futerbox {
+    width: 1180px;
+    margin: 0 auto;
+    padding-top: 150px;
+}
+.futerbox h2 {
+    font-size: 48px;
+}
+.fblocky {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 38px;
+    padding-bottom: 128px;
+
+}
+.fblock {
+    background: #E0E0E0;
+    border-radius: 8px;
+    border: 2px solid #E0E0E0;
+    width: 360px;
+    
+}
+.ftext {
+    padding: 17px 0 28px 63px;
+}
+.ftext p, .midltxt span, .txtfutb span{
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+}
+.midltxt {
+    margin-top: 20px;
+}
+.midltxt span {
+    margin-left: 28px;
+}
+.txtfutb span {
+    margin-left: 32px;
+}
+.txtfutb {
+    margin-top: 10px;
 }
