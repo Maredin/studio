@@ -40,9 +40,7 @@ header {
 }
 .btnNav {
     background: #FFFFFF;
-    border: 2px solid #CC81BA;
-    box-sizing: border-box;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
     border-radius: 8px;
     color: #0B1119;
     text-transform: uppercase;
@@ -51,10 +49,31 @@ header {
     font-family: 'Roboto', sans-serif;
     padding: 12px 31px;
     cursor: pointer;
+   
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
 
-
-
+.btnNav:hover {
+    -moz-box-shadow: 0 0 30px #ffffff;
+    -webkit-box-shadow: 0 0 30px #ffffff;
+    box-shadow:0 0 30px #ffffff; 
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    color: #ffffff;
+    background: #CC81BA;
+}
+.nav_Menu li:hover {
+    -moz-text-shadow: 0 0 15px #ffffff;
+    -webkit-text-shadow: 0 0 15px #ffffff;
+    text-shadow:0 0 15px #ffffff; 
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    color: #CC81BA;
+}
 
 .row1 {
     background-image: url(../img/image\ 3.png);
@@ -88,8 +107,27 @@ header {
     letter-spacing: 2px;
     margin-top: 80px;
     cursor: pointer;
+
+    border: none;
+    background-size: 300% 100%;
+
+
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+
+    background-image: linear-gradient(to right, #af3893, #FBB03B, #FBB03B , #af3893);
+    box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
 }
 
+.btnMain:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
 
 .row2 {
     width: 100%;
@@ -262,13 +300,22 @@ header {
 .strelka2 {
     position: relative;
     transform: rotate(180deg);
-    right: 100px;
+    right: 4%;
     cursor: pointer;
 }
 .strelka1 {
     position: relative;
-    left: 100px;
+    left: 4%;
     cursor: pointer;
+}
+
+.strelka1:hover, .strelka2:hover {
+    -moz-box-shadow: 0 0 65px #ffffff;
+    -webkit-box-shadow: 0 0 65px #ffffff;
+    box-shadow:0 0 65px #ffffff; 
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 footer {
