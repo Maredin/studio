@@ -117,7 +117,7 @@ header {
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
 
-    background-image: linear-gradient(to right, #af3893, #FBB03B, #FBB03B , #af3893);
+    background-image: linear-gradient(to right, #af3893, #9c6d92, #9c6d92 , #af3893);
     box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
 }
 
