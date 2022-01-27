@@ -19,7 +19,7 @@ s<!DOCTYPE html>
                     <li>Наши работы</li>
                 </ul>
             </nav>
-            <button class="btnNav">записаться</button>
+            <button class="btnNav" onclick="location.href='#yakor'">записаться</button>
         </div>
     </header>
     <div class="row1">
@@ -31,7 +31,7 @@ s<!DOCTYPE html>
                     Поможем  подобрать стиль прически бесплатно при
                     выборе любой услуги
                 </p>
-                <button class="btnMain">Записаться</button>
+                <button class="btnMain" onclick="location.href='#yakor'">Записаться</button>
         </div>
     </div>
 
@@ -71,7 +71,7 @@ s<!DOCTYPE html>
                 <span class="row3_left">Окрашивание</span><span class="row3_rigt">3 000-6 000 руб.</span>
             </div>
             <div class="row3_row">
-                <span class="row3_left">Креатиновое выпрямление</span><span class="row3_rigt">1 000-3 500 руб.</span>
+                <span class="row3_left"  id="yakor">Креатиновое выпрямление</span><span class="row3_rigt">1 000-3 500 руб.</span>
             </div>
         </div>
     </div>
@@ -148,10 +148,19 @@ s<!DOCTYPE html>
                         <li>Наши работы</li>
                     </ul>
                 </nav>
-                <button class="btnNav">записаться</button>
+                <button class="btnNav" onclick="location.href='#yakor'">записаться</button>
             </div>
         </div>
     </footer>
+
+    <div class="popup">
+        <div class="popup_form">
+            <img src="img/galka.png" alt="img">
+            <p>Заявка принята</p>
+        </div>
+    </div>
 </body>
 <script src="script/slider.js"></script>
+<script src="script/modal.js"></script>
+
 </html>
