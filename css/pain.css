@@ -216,6 +216,7 @@ header {
     background: rgba(204, 129, 186, 0.5);
     border-radius: 8px;
     padding: 40px 20px;
+    box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
 }
 .row4_text h2 {
     font-size: 36px
@@ -236,13 +237,18 @@ header {
     border: 1px solid #2C292A;
     display: block;
     width: 262px;
+    border: none;
+    box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
+}
+.row4_info input:focus {
+    outline: none !important;
 }
 .row4_info input:nth-child(2) {
     margin: 20px 0;
 }
 .row4_info button {
     text-transform: uppercase;
-    color: #0B1119;
+    color: #ffffff;
     letter-spacing: 0.75px;
     font-size: 14px;
     font-family: 'Roboto', sans-serif;
@@ -253,6 +259,26 @@ header {
     width: 100%;
     text-align: left;
     cursor: pointer;
+    border: none;
+
+    background-size: 300% 100%;
+
+
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+
+    background-image: linear-gradient(to right, #af3893, #9c6d92, #9c6d92 , #af3893);
+    box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
+}
+
+.row4_info button:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
 }
 
 .row5 {
