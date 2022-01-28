@@ -13,10 +13,10 @@ s<!DOCTYPE html>
             <div class="logo">Pro<span class="logoPink">Style</span></div>
             <nav class="nav_Menu">
                 <ul>
-                    <li>О нас</li>
-                    <li>Услуги и цены</li>
-                    <li>Контакты</li>
-                    <li>Наши работы</li>
+                    <li onclick="location.href='#row2'">О нас</li>
+                    <li onclick="location.href='#row3'">Услуги и цены</li>
+                    <li onclick="location.href='#row4'">Контакты</li>
+                    <li onclick="location.href='#row5'">Наши работы</li>
                 </ul>
             </nav>
             <button class="btnNav" onclick="location.href='#yakor'">записаться</button>
@@ -35,7 +35,7 @@ s<!DOCTYPE html>
         </div>
     </div>
 
-    <div class="row2">
+    <div class="row2" id="row2">
         <div class="row2_block">
             <div class="row2_text">
                 <h1>О нас</h1>
@@ -55,7 +55,7 @@ s<!DOCTYPE html>
         </div>
     </div>
 
-    <div class="row3">
+    <div class="row3" id="row3">
         <div class="row3_text">
             <h1>Услуги и цены</h1>
             <div class="row3_row">
@@ -93,12 +93,12 @@ s<!DOCTYPE html>
         </div>
     </div>
 
-    <div class="row5">
+    <div class="row5" id="row5">
         <div class="row5_text">
             <h2>Наши работы</h2>
         </div>
         <div class="strelki">
-        <img src="img/Vector.png" class="strelka1" alt="strelka">
+        <img src="img/Vector.png" class="strelka1" alt="strelka" onMouseOver="changeImage('img/vektorhover.png')">
         <img src="img/Vector.png" class="strelka2" alt="strelka">
         </div>
         <div class="row5_slider">
@@ -111,7 +111,7 @@ s<!DOCTYPE html>
     </div>
 
 
-    <footer>
+    <footer id="row4">
         <div class="futerbox">
             <h2>Контакты</h2>
             <div class="fblocky">
@@ -162,5 +162,4 @@ s<!DOCTYPE html>
 </body>
 <script src="script/slider.js"></script>
 <script src="script/modal.js"></script>
-
 </html>

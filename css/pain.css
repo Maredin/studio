@@ -300,7 +300,7 @@ header {
     align-items: flex-end;
     padding-bottom: 114px;
     overflow-x: hidden;
-    max-width: 1440px;
+    max-width: 88%;
 
 }
 .img_sliders {
@@ -326,22 +326,13 @@ header {
 .strelka2 {
     position: relative;
     transform: rotate(180deg);
-    right: 4%;
+    right: 2%;
     cursor: pointer;
 }
 .strelka1 {
     position: relative;
-    left: 4%;
+    left: 2%;
     cursor: pointer;
-}
-
-.strelka1:hover, .strelka2:hover {
-    -moz-box-shadow: 0 0 65px #ffffff;
-    -webkit-box-shadow: 0 0 65px #ffffff;
-    box-shadow:0 0 65px #ffffff; 
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    transition: all 0.3s ease;
 }
 
 footer {

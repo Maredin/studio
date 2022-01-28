@@ -63,16 +63,29 @@ function left() {
     setL--;
 
 }
-function log() {
-    console.log('set off right' + ' ' + setR + '/' + offsetR );
-    console.log('set off left' + ' ' + setL + '/' + offsetL );
 
-}
 
 
 
 next.addEventListener('click', right);
 prev.addEventListener('click', left);
 
-next.addEventListener('click', log);
-prev.addEventListener('click', log);
+
+function changeImagePrev() {
+    prev.src = 'img/vektorhover.png';
+}
+function changeImagePrev1() {
+    prev.src = 'img/Vector.png';
+}
+
+function changeImageNext(src) {
+    next.src = 'img/vektorhover.png';
+}
+function changeImageNext1(src) {
+    next.src = 'img/Vector.png';
+}
+
+prev.addEventListener('mouseover', changeImagePrev);
+prev.addEventListener('mouseout', changeImagePrev1);
+next.addEventListener('mouseover', changeImageNext);
+next.addEventListener('mouseout', changeImageNext1);
