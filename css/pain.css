@@ -26,6 +26,7 @@ header {
 .logoPink {
     color: #CC81BA;
 }
+
 .nav_Menu ul {
     width: 454px;
     justify-content: space-between;
@@ -74,6 +75,65 @@ header {
     transition: all 0.3s ease;
     color: #CC81BA;
 }
+
+
+.burg {
+    display: block;
+    height: 4px;
+    width: 100%;
+    background-color: #ffffff;;
+    margin-bottom: 4px;
+    transition: 0.4s all;
+}
+#burger1 {transform: translateY(0px) rotate(
+0deg);}
+
+
+#show-menu {
+    cursor: pointer;
+    width: 40px;
+    height: 22px;
+    display: none;
+    position: fixed;
+    top: 31.5px;
+    z-index: 1000;
+}
+
+
+#hidden-menu {
+    width: 75%;
+    position: fixed;
+    top: 0;
+    right: -75%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .8);
+    z-index: 10;
+    text-align: center;
+    transition: 0.6s all;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#hidden-menu a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 3;
+}
+#hidden-menu ul{
+    list-style: none;
+    padding: 20px 15px;
+
+}
+#hidden-menu ul li{
+
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+
+
 
 .row1 {
     background-image: url(../img/image\ 3.png);
@@ -415,4 +475,280 @@ footer {
     padding-bottom: 25px;
     color: rgb(8, 197, 8);
     font-size: 30px;  
+}
+
+@media (max-width: 1200px) {
+    .header, .row1_tex, .row2_block, .row3_text, .row4, .row4_midle, .row5_text, .futerbox  {
+        max-width: 94%;
+    }
+    .strelki {
+        max-width: 99%;
+    }
+    .img_sliders{
+        width: 210px;
+        height: 210px;
+    }
+    .img_aktive {
+        width: 280px;
+        height: 280px;
+    }
+}
+@media (max-width: 1124px) {
+    .row1_tex h1 {
+        font-size: 79px;
+    }
+    .btnMain {
+        padding: 28px 58px;
+    }
+    .row2_block {
+        padding: 100px 0;
+    }
+    .row2_img img {
+        width: 100%;
+        height: 100%;
+    }
+    .row2_block p {
+        margin-top: 30px;
+    }
+    .img_sliders{
+        width: 150px;
+        height: 150px;
+    }
+    .img_aktive {
+        width: 200px;
+        height: 200px;
+    }
+    .strelki {
+        top: 170px;
+    }
+    .row3_text {
+        padding: 100px 0;
+    }
+    .row3_left, .row3_rigt {
+        font-size: 26px;
+    }
+    .row3_text h1 {
+        font-size: 38px;
+        padding-bottom: 30px;
+    }
+    .row5_text h2 {
+        font-size: 38px;
+        padding-top: 100px;
+    }
+    .row5_slider {
+        padding-bottom: 114px;
+    }
+    .futerbox {
+        padding-top: 100px;
+    }
+    .ftext {
+        padding: 17px 0 28px 33px;
+    }
+    .fblock {
+        width: 300px;
+    }
+}
+@media (max-width: 768px) {
+    .logo {
+        font-size: 30px;
+    }
+    .nav_Menu ul {
+        width: 380px;
+    }
+    .row1_tex {
+        margin: 0 auto;
+        padding: 50px 0 50px 0;
+    }
+    .row1_tex h1 {
+        font-size: 59px;
+    }
+    .btnMain {
+        font-size: 18px;
+        margin-top: 60px;
+    }
+    .row1_tex p {
+        margin-top: 40px;
+        font-size: 20px;
+    }
+    .btnMain {
+        padding: 18px 38px;
+    }
+    .row2_block {
+        padding: 50px 0;
+    }
+    .row2_block p {
+        margin-top: 10px;
+        font-size: 14px;
+    }
+    .row2_block h1 {
+        font-size: 38px;
+    }
+    .row3_text {
+        padding: 50px 0;
+    }
+    .row3_left, .row3_rigt {
+        font-size: 20px;
+    }
+    .row3_text h1 {
+        font-size: 38px;
+        padding-bottom: 10px;
+    }
+    .row4_text {
+        width: 300px;
+    }
+    .row3_left {
+        padding-left: 50px;
+    }
+    .row3_rigt {
+        padding-right: 50px;
+    }
+    .row5_text h2 {
+        font-size: 38px;
+        padding-top: 40px;
+    }
+    .row5_slider {
+        padding-bottom: 50px;
+    }
+    .img_sliders{
+        width: 150px;
+        height: 150px;
+    }
+    .img_aktive {
+        width: 200px;
+        height: 200px;
+    }
+    .strelka1, .strelka2 {
+        width: 20px;
+        height: 70px;
+    }
+    .strelki {
+        top: 160px;
+    }
+    .futerbox {
+        padding-top: 50px;
+    }
+    .ftext {
+        padding: 17px 0 28px 33px;
+    }
+    .fblock {
+        width: 230px;
+    }
+    .fblocky {
+        padding-bottom: 30px;
+    }
+    .futerbox h2 {
+        font-size: 38px;
+    }
+    .ftext p, .midltxt span, .txtfutb span {
+        font-size: 16px;
+    }
+}
+@media (max-width: 425px) {
+    .header {
+        display: block;
+        text-align: end;
+    }
+    .nav_Menu {
+        display: none;
+    }
+    .row1_tex h1 {
+        font-size: 39px;
+    }
+    .btnMain {
+        font-size: 14px;
+        margin-top: 50px;
+    }
+    .row2_block {
+        display: block;
+    }
+    .row2_img {
+        margin-top: 30px;
+    }
+    .row3_text {
+        padding: 30px 0;
+    }
+    .row3_left, .row3_rigt {
+        font-size: 14px;
+    }
+    .row3_text h1 {
+        font-size: 28px;
+    }
+    .row3_left {
+        padding-left: 20px;
+    }
+    .row3_rigt {
+        padding-right: 20px;
+    }
+    .row4_midle {
+        padding: 10px;
+        display: grid;
+    }
+    .row4_info input {
+        width: 90%;
+    }
+    .row4_info input:nth-child(2) {
+        margin: 10px 0;
+    }
+    .row4_text {
+        padding: 20px 20px;
+    }
+    .row4_info {
+        margin-top: 15px;
+    }
+    .fblocky {
+        display: grid;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .fblock:nth-child(2) {
+        margin: 10px 0;
+    }
+    .futerbox h2 {
+        text-align: center;
+    }
+    .row1_tex p {
+        font-size: 14px;
+    }
+    .btnNav {
+        padding: 9px 15px;
+    }
+    .img_sliders{
+        width: 100px;
+        height: 100px;
+    }
+    .img_aktive {
+        width: 150px;
+        height: 150px;
+    }
+    .strelki {
+        top: 135px;
+    }
+    .strelka1, .strelka2 {
+        width: 10px;
+        height: 60px;
+    }
+    #show-menu {
+        display: block;
+    }
+    .logo {
+        display: none;
+    }
+    #logoHide {
+        display: inline-block;
+        
+    }
+}
+@media (max-width: 320px) {
+    .row1_tex h1 {
+        font-size: 25px;
+    }
+    .row4_text {
+        width: 250px;
+    }
+    .row4_info input {
+        width: 88.5%;
+    }
+    .row5_slider {
+        max-width: 84%;
+    }
 }

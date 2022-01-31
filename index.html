@@ -1,4 +1,4 @@
-s<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
@@ -19,9 +19,25 @@ s<!DOCTYPE html>
                     <li onclick="location.href='#row5'">Наши работы</li>
                 </ul>
             </nav>
+            <div id="show-menu">
+                <span class="burg" id="burger1"></span>
+                <span class="burg" id="burger2"></span>
+                <span class="burg" id="burger3"></span>
+                </div>
             <button class="btnNav" onclick="location.href='#yakor'">записаться</button>
         </div>
     </header>
+    <div id="hidden-menu">
+        <div class="logo" id="logoHide">Pro<span class="logoPink" id="logoHide">Style</span></div>
+        <ul>
+            <li onclick="location.href='#'">Главная</li>
+            <li onclick="location.href='#row2'">О нас</li>
+            <li onclick="location.href='#row3'">Услуги и цены</li>
+            <li onclick="location.href='#row4'">Контакты</li>
+            <li onclick="location.href='#row5'">Наши работы</li>
+   </ul>
+   </div>
+
     <div class="row1">
         <div class="row1_tex">
             <h1>Имидж-студия 
@@ -71,7 +87,7 @@ s<!DOCTYPE html>
                 <span class="row3_left">Окрашивание</span><span class="row3_rigt">3 000-6 000 руб.</span>
             </div>
             <div class="row3_row">
-                <span class="row3_left"  id="yakor">Креатиновое выпрямление</span><span class="row3_rigt">1 000-3 500 руб.</span>
+                <span class="row3_left"  id="yakor">Креатиновое выпрямление</span><span class="row3_rigt">1&nbsp;000-&nbsp;3&nbsp;500&nbsp;руб.</span>
             </div>
         </div>
     </div>
@@ -162,4 +178,5 @@ s<!DOCTYPE html>
 </body>
 <script src="script/slider.js"></script>
 <script src="script/modal.js"></script>
+<script src="script/burger.js"></script>
 </html>
