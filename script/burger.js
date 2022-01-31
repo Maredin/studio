@@ -21,10 +21,9 @@ show_menu.addEventListener('click', function(e){
 hide.forEach(item => {
     item.addEventListener('click', () => {
         hidden_menu.style.right = hidden_menu.style.right === '0px' ? '-75%' : '0px';
-    burger2.style.display = burger2.style.display === 'none' ? 'block' : 'none';
-    burger1.style.transform = burger1.style.transform === 'translateY(10px) rotate(-45deg)' ? 'translateY(0px) rotate(0deg)' : 'translateY(10px) rotate(-45deg)';
-    burger3.style.transform = burger3.style.transform === 'translateY(3px) rotate(45deg)' ? 'translateY(0px) rotate(0deg)' : 'translateY(3px) rotate(45deg)';
+        burger2.style.display = burger2.style.display === 'none' ? 'block' : 'none';
+        burger1.style.transform = burger1.style.transform === 'translateY(10px) rotate(-45deg)' ? 'translateY(0px) rotate(0deg)' : 'translateY(10px) rotate(-45deg)';
+        burger3.style.transform = burger3.style.transform === 'translateY(3px) rotate(45deg)' ? 'translateY(0px) rotate(0deg)' : 'translateY(3px) rotate(45deg)';
     });
 });
 
-console.log(hide);
